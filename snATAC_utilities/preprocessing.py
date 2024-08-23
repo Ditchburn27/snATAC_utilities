@@ -49,7 +49,7 @@ def count_region_features(adata, region_feature_label='selected'):
 
 ##############################################################
 # Function for counting number of doublets and removing doublets
-def count_remove_doublets(adata=adata, groupby='library_id'):
+def count_remove_doublets(adata, groupby='library_id'):
     """
     Count and remove doublets from an AnnData object.
 
