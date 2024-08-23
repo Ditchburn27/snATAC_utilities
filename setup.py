@@ -19,5 +19,6 @@ setup(
                  'License :: OSI Approved :: MIT License',
                  'Operating System :: OS Independent',
     ],
+    url='https://github.com/Ditchburn27/snATAC_utilities.git',
     python_requires='>=3.6',
 )
