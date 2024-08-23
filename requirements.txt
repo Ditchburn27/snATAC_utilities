@@ -1,0 +1,8 @@
+numpy
+pandas
+snapatac2
+scanpy
+matplotlib
+seaborn
+pybedtools
+scipy
