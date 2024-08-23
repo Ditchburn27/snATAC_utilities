@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='snATAC_utilities',
-    version='1.0.0',
+    version='0.1',
     author='Leighton Ditchburn',
     author_email='leighton.ditchburn@outlook.com',
     description='Collection of functions for preprocessing, clustering and plotting of snATAC-seq analysis with snapATAC2',
@@ -14,10 +14,10 @@ setup(
                       'snapatac2',
                       'pybedtools',
                       'tqdm',
-                      'numpy']
+                      'numpy'],
     classifiers=['Programming Language :: Python :: 3',
                  'License :: OSI Approved :: MIT License',
                  'Operating System :: OS Independent',
     ],
-    python_requires='>=3.8'
+    python_requires='>=3.6',
 )
