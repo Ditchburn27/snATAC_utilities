@@ -16,3 +16,14 @@ Includes 3 modules:
    - Plot cell counts for observations
    - Plot scatter plots of observations
 
+## Installation
+
+Clone this repository, and follow the commands below.
+
+```bash
+git clone https://github.com/Ditchburn27/snATAC_utilities.git
+
+cd snATAC_utilities
+
+pip install .
+```
